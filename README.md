@@ -1,2 +1,1 @@
-# Daily-tasks-tracker
-a daily tasks tracker and a to-do list
+🌸 A beautiful girly and earthy themed interactive to-do list application built with HTML, CSS, and JavaScript. Features task management, local storage, and a nature-inspired design perfect for organizing daily goals.
