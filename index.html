@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom & Grow - To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Bloom & Grow</h1>
+            <p class="subtitle">Nurture your daily goals ✨</p>
+        </div>
+
+        <div class="input-section">
+            <input type="text" class="task-input" placeholder="Plant a new task in your garden..." id="taskInput">
+            <button class="add-btn" id="addBtn">Add Task 🌱</button>
+        </div>
+
+        <div class="task-list" id="taskList">
+            <div class="empty-state" id="emptyState">
+                Your garden is ready for new seeds to grow!
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-number" id="totalTasks">0</span>
+                <div class="stat-label">Total Seeds</div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="completedTasks">0</span>
+                <div class="stat-label">Bloomed</div>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="remainingTasks">0</span>
+                <div class="stat-label">Growing</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
